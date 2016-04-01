@@ -6668,14 +6668,23 @@ html {
   color: #fff;
   text-shadow: none; }
 
-.space-bg {
-  background-image: url(../images/wallpaper_QBjln.jpg);
+.sawyer-bg {
+  background-image: url(../images/tom.jpg);
   background-size: cover;
   color: #fafafa;
-  padding: 12.5rem 0 0; }
+  padding: 14.5rem 0 1rem; }
 
 .header {
-  margin-bottom: 3.75rem; }
+  margin-bottom: 3.75rem;
+  text-shadow: 1px 1px 5px black;
+}
+
+.nav ul {
+  padding-top: 1rem;
+}
+.nav li {
+  margin-bottom: 1rem;
+}
 
 .content {
   padding: 3.75rem 0; }
@@ -6684,8 +6693,9 @@ html {
     margin-left: auto;
     margin-right: auto; }
 
-.footer {
-  text-align: right; }
+.footer p {
+  font-size: 0.6875rem;
+}
 
 .margin-right {
   margin-right: 1.875rem; }
@@ -6695,3 +6705,9 @@ html {
 
 .margin-bottom {
   margin-bottom: 1.875rem; }
+
+
+.page-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
